@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paso1</title>
+    <link rel="stylesheet" href="../static/css/paso1.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../static/img/logoGesgos.png" alt="" class="logo" />
+      <h1 class="titulo">Evaluacion PESV</h1>
+      <div class="lista">
+        <h4>Lista de chequeo</h4>
+        <h4>Fuente: Resolución 40595 de 2022</h4>
+        <h4>Ministerio de transporte</h4>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="subtitulo">
+        HERRAMIENTA PARA EVALUACION DEL PLAN ESTRATEGICO DE SEGURIDAD VIAL SEGÚN
+        LA RESOLUCIÓN 40595 DEL 2022<br /><br />
+      </div>
+
+      <div class="pasos">
+        <button class="paso activo">
+          <img src="../static/img/Iconos/Edificio.png" class="Icono" />
+          Paso 1: Misionalidad
+        </button>
+        <button class="paso">
+          <img src="../static/img/Iconos/Carro.png" class="Icono" />
+          Paso 2: Vehículos
+        </button>
+        <button class="paso">
+          <img src="../static/img/Iconos/Documento.png" class="Icono" />
+          Paso 3: Resulados
+        </button>
+      </div>
+
+      <div class="Contenido">
+        <h2 class="Titulo2">Paso 1: Identificación misionalidad</h2>
+
+        <p class="descripcion">
+          <br />
+          De acuerdo con lo dispuesto en la resolución 40595 del 12 de julio de
+          2022, lo primero que debe realizar como empresa, es identificar la
+          misionalidad de la organización para establecer el nivel de Plan
+          Estratégico de Seguridad Vial que debe implementar, considerando los
+          tipos de misionalidad.<br />
+        </p>
+
+        <div class="Misionalidades">
+          <label class="Opcion">
+            <input type="radio" name="misionalidad" value="1" />
+            <span class="Texto">
+              <b>Misionalidad 1</b><br />
+              <p class="Text">
+                Son las organizaciones dedicadas a la prestación del servicio de
+                transporte terrestre automotor.
+              </p>
+            </span>
+          </label>
+
+          <label class="Opcion">
+            <input type="radio" name="misionalidad" value="2" />
+            <span class="Texto">
+              <b>Misionalidad 2</b><br />
+              <p class="Text">
+                Son las organizaciones dedicadas a actividades diferente al
+                transporte
+              </p>
+            </span>
+          </label>
+
+          <div class="Boton-siguiente">
+            <button class="Continuar">Continuar al paso 2</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
