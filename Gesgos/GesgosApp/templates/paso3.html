@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paso3</title>
-    <link rel="stylesheet" href="../static/css/paso3.css" />
+    <link rel="stylesheet" href="../static/css/paso3.css"/>
+    <link rel="icon" type="image/png" href="../static/img/logoGesgos.png" />
+    <script src="https://unpkg.com/lucide@latest"></script>
   </head>
   <body>
     <header>
@@ -24,16 +26,16 @@
       </div>
 
       <div class="pasos">
-        <button class="paso">
-          <img src="../static/img/Iconos/Edificio.png" class="Icono" />
+        <button class="paso activo">
+          <i data-lucide="building"></i>
           Paso 1: Misionalidad
         </button>
         <button class="paso">
-          <img src="../static/img/Iconos/Carro.png" class="Icono" />
+          <i data-lucide="car"></i>
           Paso 2: Vehículos
         </button>
-        <button class="paso activo">
-          <img src="../static/img/Iconos/Documento.png" class="Icono" />
+        <button class="paso ">
+          <i data-lucide="file-text"></i>
           Paso 3: Resulados
         </button>
       </div>
@@ -82,5 +84,8 @@
         </div>
       </div>
     </div>
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>
